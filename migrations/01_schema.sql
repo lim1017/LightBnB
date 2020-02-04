@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN name TYPE TEXT;
+\
+ALTER TABLE users ALTER COLUMN member_since SET DEFAULT Now()
